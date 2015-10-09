@@ -108,7 +108,7 @@ int setLedBright(String brightness) {
     hours.setBrightness(bright);
     hours.show();
     Particle.publish(brightness);
-    //exit(0);  
+    //exit(0);
 }
 void colorPressed() {
     uint32_t colors[] = { 0xffffff, 0xFF0000, 0x00ff00,0x0000ff, 0xff00ff,0xffff00};
